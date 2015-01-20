@@ -14,7 +14,7 @@
 
 char *attribution = "Courtesy of Parker McGee <pmcgee@salesforce.com>.";
 
-char* control_host = "pmcgee-ltm4.internal.salesforce.com";
+char* control_host = "pmcgee-ltm4";
 char* control_port = "8090";
 
 SpeechChannel speech_chan;
